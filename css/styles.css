@@ -49,6 +49,14 @@ a:hover{
     color: #eaf6f6;
 }
 
+
+hr{
+    border: dotted #E4F9F5 6px;
+    border-bottom: none;
+    width: 20%;
+    margin: 50px auto;
+}
+
 .top-container{
     background-color: #E4F9F5;
     position: relative;
@@ -64,32 +72,9 @@ a:hover{
     padding: 50px 0 20px;
 }
 
-.pro{
-    text-decoration: underline;
-}
-
 .intro{
-    width: 30%;
+    width: 60%;
     margin: auto;
-}
-
-.cloud-top{
-  position: absolute;
-  top: 30px;
-  right: 300px;
-}
-
-.cloud-bottom{
-    position: absolute;
-    left: 250px;
-    bottom: 300px;
-}
-
-hr{
-    border: dotted #EAF6F6 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
 }
 
 .skill-row{
@@ -98,21 +83,16 @@ hr{
     text-align: left;
 }
 
-.code-image{
+.left-image{
     width: 25%;
     float: left;
     margin-right: 30px;
 }
 
-.tech-image{
+.right-image{
     width: 25%;
     float: right;
     margin-left: 30px;
-}
-
-.contact-message{
-    width: 40%;
-    margin: 40px auto 60px;
 }
 
 .btn{
@@ -137,5 +117,17 @@ hr{
 }
 
 .profile-img{
+    margin-bottom: 110px;
     border-radius: 100%;
+}
+
+.org{
+    width: 5rem;
+    height: auto;
+}
+
+.exp-row{
+    width: 45%;
+    margin: 60px auto;
+    text-align: left;
 }
