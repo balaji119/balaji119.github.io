@@ -32,7 +32,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   type='text'
-                  name='user_name'
+                  name='name'
                   className={`form-input ${classes.input}`}
                 />
               </div>
@@ -48,7 +48,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   type='email'
-                  name='user_email'
+                  name='email'
                   className={`form-input ${classes.input}`}
                 />
               </div>
